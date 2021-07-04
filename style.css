@@ -36,3 +36,38 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, red,orange);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
+#experience h1{
+    padding-left: 40px;
+}
+#experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 50%;
+}
+.exp-item{
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 8px 8px 10px 5px grey;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-right: 10px;
+}
+#web-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(45deg, orange, rgb(238, 69, 69));
+    border-image-slice: 1;
+}
+#machine-learning{
+    
+    border-left: 8px solid;
+    border-image: linear-gradient(45deg, rgb(165, 228, 253), rgb(11, 153, 248));
+    border-image-slice: 1;
+}
