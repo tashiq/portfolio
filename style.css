@@ -9,7 +9,7 @@ body{
 }
 .flexible{
     display: flex;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 .half-width{
     width: 50%;
