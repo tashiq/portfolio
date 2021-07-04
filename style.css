@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.intro-section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 80%;
+}
+#heading{
+    font-size: 3em;
+}
+#heading span{
+    color: cornflowerblue
+}
