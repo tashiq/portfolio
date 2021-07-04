@@ -3,9 +3,13 @@ body{
     font-family: 'Otomanopee One', sans-serif;
 }
 .intro-section{
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
+}
+.flexible{
+    display: flex;
+    padding-bottom: 5%;
 }
 .half-width{
     width: 50%;
@@ -22,4 +26,13 @@ body{
 }
 #heading span{
     color: cornflowerblue
+}
+
+.dream-section-image{
+    padding-top: 100px;
+}
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
